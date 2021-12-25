@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/aslilac/corsola/internal/friend"
+	"github.com/aslilac/corsola/pkg/friend"
 )
 
 type Args struct {
@@ -29,6 +29,6 @@ func main() {
 		}
 	}
 
-	puppy := friend.Friend{name: "Puppy!"}
-	puppy.sayHi()
+	puppy := friend.Friend{Name: "Puppy!"}
+	puppy.SayHi(2)
 }
