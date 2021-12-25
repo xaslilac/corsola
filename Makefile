@@ -1,14 +1,14 @@
 default:
-	go build -o bin/corsola ./cmd/corsola/corsola.go
+	go build -o ./bin/ ./cmd/corsola/
 
 run:
-	go run ./cmd/corsola/corsola.go
+	go run ./cmd/corsola/
 
 test:
-	go run ./cmd/corsola/corsola.go -hello -count=3
+	go run ./cmd/corsola/ -hello -count=3
 
 fmt:
-	go fmt github.com/aslilac/...
+	go fmt ./...
 
 lint:
-	go vet github.com/aslilac/...
+	go vet ./...
