@@ -30,6 +30,8 @@ func main() {
 	}
 
 	puppy := friend.Friend{Name: "Puppy!"}
+	puppy.SayHi(1)
+	puppy.ChangeName("Puppy!!")
 	puppy.SayHi(2)
 	// Interesting that you can call it this way too
 	// friend.Friend.SayHi(puppy, 2)
