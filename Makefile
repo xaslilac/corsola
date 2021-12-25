@@ -6,3 +6,9 @@ run:
 
 test:
 	go run ./cmd/corsola/corsola.go -hello -count=3
+
+fmt:
+	go fmt github.com/aslilac/...
+
+lint:
+	go vet github.com/aslilac/...
