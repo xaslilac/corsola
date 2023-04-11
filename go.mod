@@ -1,3 +1,3 @@
-module github.com/aslilac/corsola
+module example/corsola
 
 go 1.17
