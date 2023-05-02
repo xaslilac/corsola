@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/aslilac/corsola/internal/friend"
+	"example/corsola/internal/friend"
 )
 
 type Args struct {
